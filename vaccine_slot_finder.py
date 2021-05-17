@@ -103,14 +103,14 @@ def trigger_whatsapp_notification(center_details, twilio_client_id, twilio_authe
 # User Inputs Here.
 state = 'Maharashtra'  # Enter State of India For eg "Maharashtra"
 district = 'Pune'  # Enter District  of State Chosen For eg "Pune"
-date = "17-05-2021"  # Enter Date of Slot to be chosen for vaccination. For eg "16-05-2021"
+date = "21-05-2021"  # Enter Date of Slot to be chosen for vaccination. For eg "16-05-2021"
 age_limit = 18  # Enter Age bracket of vaccination ie 18 or 45.
 choose_dosage = "first"  # Enter the dose type if it is "first" or "second" in words.
 
-twilio_client_id = ''  # Enter from twilio dashboard
-twilio_authentication_token = ''  # Enter from twilio dashboard
-twilio_whatsapp_number = ''  # Enter from twilio dashboard
-user_whatsapp_number = ''  # Enter WhatsApp number of user with +91 format.
+twilio_client_id = '9a63098b32b3c644d1dae333ea58b3d9'  # Enter from twilio dashboard
+twilio_authentication_token = 'ACd54b201fc20c7c1543c01d7fb3140094'  # Enter from twilio dashboard
+twilio_whatsapp_number = '+14155238886'  # Enter from twilio dashboard
+user_whatsapp_number = '+918058197764'  # Enter WhatsApp number of user with +91 format.
 
 # User Inputs Ends Here.
 
